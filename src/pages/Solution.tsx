@@ -20,7 +20,7 @@ interface Product {
 const Container = styled.div`
   max-width: 1200px;
   margin: auto;
-  margin-top: 1000px;
+  margin-top: 500px;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 10px;
