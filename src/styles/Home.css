@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #f8cdda, #1d2b64);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background: rgba(255, 255, 255, 0.8); /* 반투명 배경 */
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  button {
+    width: 200px;
+    height: 50px;
+    padding: 0; /* 내부 여백을 제거하여 고정된 크기에 맞춤 */
+    font-size: 18px;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    background: #1d2b64;
+    color: #fff;
+    transition: background 0.3s, transform 0.3s;
+  }
+  
+  button:hover {
+    background: #f8cdda;
+    color: #1d2b64;
+    transform: scale(1.05);
+  }
+  
