@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
-import { useState } from 'react'; // Import useState from React
+import { useState } from 'react'; 
 import products from '../data/mockData';
-// Define the Product interface
+
 interface Product {
   code: string;
   name: string;
@@ -70,7 +70,7 @@ const Td = styled.td`
   border: 1px solid #ccc;
   padding: 10px;
 `;
-// Solution Component
+
 const Solution: React.FC = () => {
   const [searchCriteria, setSearchCriteria] = useState({
     incomingLocation: '',
@@ -239,14 +239,4 @@ const Solution: React.FC = () => {
     </Container>
   );
 };
-
-// Export the Solution component directly
-const App: React.FC = () => {
-  return (
-    <div className="App">
-      <Solution />
-    </div>
-  );
-};
-
-export default App;
+export default Solution;
