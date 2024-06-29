@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import images from '../data/imagesData';
-import '../styles/common.css';
 import '../styles/pagination.css';
 
 const Pagination: React.FC = () => {
