@@ -43,7 +43,7 @@ const InfiniteScroll: React.FC = () => {
     setTimeout(() => {
       setVisibleImages((prevImages) => [
         ...prevImages,
-        ...imagesData.slice(prevImages.length, prevImages.length + 4), // 4개씩 추가
+        ...imagesData.slice(prevImages.length, prevImages.length + 8), // 4개씩 추가
       ]);
       setIsLoading(false);
     }, 500);
